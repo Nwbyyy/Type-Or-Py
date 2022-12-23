@@ -1,5 +1,5 @@
 # Type-Or-Py
-An automatic answer program for the game Type or Die on Roblox
+An automatic answer program for the game Type or Die on Roblox \n
 I do not condone cheating
 Tool only for use on private servers against consenting parties
 
