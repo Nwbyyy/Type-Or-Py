@@ -2,6 +2,7 @@ from PIL import ImageGrab
 import pytesseract
 import csv
 import pyautogui
+import pydirectinput
 from pynput import keyboard
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
@@ -21,6 +22,7 @@ def get_question():
 def type_answer(answer):
     print(answer)
     pyautogui.write(answer, 0.05)
+    pydirectinput.press('enter')
 
 def get_answer():  
     answers_dict = create_csv_dict('q&a.csv')
@@ -50,4 +52,4 @@ def on_press(key):
 
 listener = keyboard.Listener(on_press)
 listener.start()
-listener.join() 
+listener.join()
