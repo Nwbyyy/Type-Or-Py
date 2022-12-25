@@ -9,5 +9,5 @@ Tool only for use on private servers against consenting parties.
 
 I AM NOT RESPONSIBLE IF YOU GET BANNED USING THIS TOOL
 
-#Todo
+# Todo
 Some questions in q&a.csv are shortened to be more searchable however this format does not work with the program. Need to go through and fix questions as issues arise
