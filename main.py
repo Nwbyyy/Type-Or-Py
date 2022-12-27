@@ -1,10 +1,10 @@
-from PIL import ImageGrab
-import pytesseract
-import csv
-import pyautogui
-import pydirectinput
-from pynput import keyboard
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+from PIL import ImageGrab #To take a screenshot to get question
+import pytesseract #To interpret text on screen
+import csv #To import csv dictionary
+import pyautogui #To type in the answer
+import pydirectinput #To submit the answer
+from pynput import keyboard #To detect keypress
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' #To locat pytesseract
 
 def create_csv_dict(file_name):
     with open(file_name, mode='r') as infile:
